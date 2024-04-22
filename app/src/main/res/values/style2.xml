@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="simple.Large" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">#044A04</item>
+        <item name="android:textSize">25dp</item>
+        <item name="buttonStyle">@style/Widget.AppCompat.Button</item>
+    </style>
+    <style name="simple1" >
+        <item name="android:textColor">#170635</item>
+        <item name="android:textSize">25dp</item>
+        <item name="android:background">#9C9C7D</item>
+    </style>
+    <style name="ButtonStyle" >
+        <item name="android:textColor">#FF9800</item>
+        <item name="android:background">@drawable/btn_background</item>
+        <item name="android:backgroundTint">#D54A76</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="ButtonStyle1">
+        <item name="android:textColor">#CDDC39</item>
+        <item name="android:backgroundTint">#14289A</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="card">
+        <item name="android:padding">30dp</item>
+        <item name="android:layout_margin">30dp</item>
+
+    </style>
+
+
+</resources>

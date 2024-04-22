@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="30dp"
+    android:orientation="vertical"
+    tools:context=".progressbar">
+
+    <ProgressBar
+        android:id="@+id/horizontalprogressBar3"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00000000"
+        android:indeterminateTint="#000000"
+        android:progressTint="#2196F3" />
+
+    <TextView
+        android:id="@+id/tv_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#2196F3" />
+
+    <Button
+        android:id="@+id/bt_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="START" />
+
+    <Button
+        android:id="@+id/bt_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:text="INCREMENT" />
+
+    <ProgressBar
+        android:id="@+id/circularProgressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="50dp"
+        android:indeterminateTint="#03A9F4" />
+
+    <Button
+        android:id="@+id/bt_circular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BEGIN" />
+
+    <Button
+        android:id="@+id/bt_gototoasttypes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="go to toast types" />
+
+    <Button
+        android:id="@+id/bt_styles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Styles" />
+</LinearLayout>

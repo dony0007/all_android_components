@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="40dp"
+    tools:context=".custom_toast">
+
+    <TextView
+        android:id="@+id/ctoast_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:text="Custom Toast  /  Dialog"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bt_toast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TOAST" />
+
+    <Button
+        android:id="@+id/bt_custom_toast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="170dp"
+        android:text="CUSTOM TOAST" />
+
+    <Button
+        android:id="@+id/bt_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DIALOG" />
+
+    <Button
+        android:id="@+id/bt_customdialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CUSTOM DIALOG" />
+</LinearLayout>
